@@ -47,6 +47,7 @@ public final class QueryUtils {
      * parsing a JSON response.
      */
     public static ArrayList<Quake> fetchEarthquakeData(String requestUrl) {
+        Log.d(EarthquakeActivity.LOG_TAG,"QueryUtils fetchEarthQuakeData method");
 
         // Create URL object
         URL url = createUrl(requestUrl);
