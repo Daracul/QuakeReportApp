@@ -116,7 +116,7 @@ public class QuakeArrayAdapter extends ArrayAdapter<Quake> {
     }
 
     private String formatTime(Date time){
-        SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm",Locale.getDefault());
+        SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm",Locale.getDefault());
         return timeFormat.format(time);
     }
 
